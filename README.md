@@ -1,6 +1,11 @@
 #screenshots
+![](https://github.com/LucaGhilardi/Weather-APP/blob/main/assets/Screenshot%20(35).png)
 
 ![](https://github.com/LucaGhilardi/Weather-APP/blob/main/assets/Screenshot%20(36).png)
+
+![](https://github.com/LucaGhilardi/Weather-APP/blob/main/assets/Screenshot%20(34).png)
+
+
 
 # Getting Started with Create React App
 
