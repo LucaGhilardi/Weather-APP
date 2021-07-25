@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "montserat", sans-serif;
+
+}
+
+
+
+.App {
+  background-image: url("./assets/default.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: 0.4 ease-out;
+
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+  padding-bottom: 2rem;
+}
+
+
+.App.cold {
+  background-image: url("./assets/cold.jpg");
+}
+
+
+
+.App.hot {
+  background-image: url("./assets/hot.jpg");
+}
+
+main {
+
+  min-height: 100vh;
+  padding: 3rem;
+
+}
+
+.Search-box {
+  margin: 0 0 75px;
+}
+
+.Search-box .Search-bar {
+  display: block;
+  width: 100%;
+  padding: .5rem;
+  background: none;
+  border: none;
+  outline: none;
+  appearance: none;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: .5rem;
+  font-size: 1rem;
+  transition: 0.4s ease;
+}
+
+.location-box .location {
+  color: #fff;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 200;
+  text-shadow: .1rem .1rem rgba(50, 50, 70, 0.5);
+}
+
+.location-box .date {
+  color: #fff;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 200;
+  text-shadow: .1rem .1rem rgba(50, 50, 70, 0.5);
+}
+
+.weather-box {
+  text-align: center;
+}
+
+.weather-box .temp {
+  position: relative;
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 2.5rem auto;
+  border-radius: .5rem;
+  padding: 2.5rem 3rem;
+  color: #fff;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 400;
+  text-shadow: .1rem .1rem rgba(50, 50, 70, 0.5);
+}
+
+.weather-box .weath {
+
+  color: #fff;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 400;
+  text-shadow: .1rem .1rem rgba(50, 50, 70, 0.5);
+}
